@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mHome"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item android:id="@+id/mSearch"
+        android:title="Files"
+        android:icon="@drawable/ic_baseline_insert_drive_file_24"/>
+    <item android:id="@+id/mPerson"
+        android:title="Games"
+        android:icon="@drawable/ic_baseline_videogame_asset_24"/>
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EFC42A</color>
+    <color name="colorPrimaryDark">#CCCBC8</color>
+    <color name="cld">#1E5DFF</color>
+    <color name="colorAccent">#407806</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000</color>
+    <color name="transparent">#00000000</color>
+    <color name="dark_grey">#DCDCDC</color>
+    <color name="green_50">#4F971C</color>
+    <color name="grey">#BFBFBF</color>
+    <color name="red">#fe4e4e</color>
+    <color name="holo_green">#82DF4F</color>
+    <color name="dark_grey_blue">#33475c</color>
+    <color name="blue">#6432BE</color>
+    <color name="black_transparent">#40000000</color>
+    <color name="splash_text">#7ffb00</color>
+    <color name="whatsapp_color">#3DE25C</color>
+
+    <color name="overlay_dark_10">#1A000000</color>
+    <color name="overlay_dark_20">#33000000</color>
+    <color name="grey_80">#37474F</color>
+    <color name="blue_grey_400">#78909C</color>
+    <color name="grey_5">#f2f2f2</color>
+
+</resources>

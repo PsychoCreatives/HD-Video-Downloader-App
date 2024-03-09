@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "772395783306",
+    "project_id": "mp4hdvideodownloader",
+    "storage_bucket": "mp4hdvideodownloader.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772395783306:android:66596af610c626cf8a4973",
+        "android_client_info": {
+          "package_name": "hd.tubex.snap.vmate.itube.mixmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772395783306-fc89dsvnf1bqvt1f8s7ijp7nbpu5i9e4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfMrLJgbj7QcfTxnL38GZ6cRKvW-tWY_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772395783306-fc89dsvnf1bqvt1f8s7ijp7nbpu5i9e4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772395783306:android:b805c2f2591a625b8a4973",
+        "android_client_info": {
+          "package_name": "hd.tubex.snap.vmate.newsaver.mixmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772395783306-fc89dsvnf1bqvt1f8s7ijp7nbpu5i9e4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfMrLJgbj7QcfTxnL38GZ6cRKvW-tWY_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772395783306-fc89dsvnf1bqvt1f8s7ijp7nbpu5i9e4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

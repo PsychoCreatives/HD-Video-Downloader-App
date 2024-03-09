@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+
+
+    <queries>
+        <package android:name="com.whatsapp" />
+        <package android:name="com.whatsapp.w4b" />
+        <package android:name="com.eterno.shortvideos" />
+        <package android:name="io.chingari.app" />
+        <package android:name="com.facebook.katana" />
+        <package android:name="com.mitron.tv" />
+        <package android:name="com.roposo.android" />
+        <package android:name="in.mohalla.sharechat" />
+        <package android:name="com.kwai.bulldog" />
+        <package android:name="com.vimeo.android.videoapp" />
+        <package android:name="com.instagram.android" />
+        <package android:name="video.like" />
+        <package android:name="com.twitter.android" />
+        <package android:name="com.zhiliaoapp.musically.go" />
+        <package android:name="com.zhiliaoapp.musically" />
+        <package android:name="com.next.innovation.takatak" />
+    </queries>
+
+    <application
+        android:name="hd.tubex.snap.vmate.itube.mixmate.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="hd.tubex.snap.vmate.itube.mixmate.activity.ActHome"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="hd.tubex.snap.vmate.itube.mixmate.activity.LoginActivity" />
+        <activity android:name="hd.tubex.snap.vmate.itube.mixmate.activity.FacebookActivity" />
+        <activity android:name="hd.tubex.snap.vmate.itube.mixmate.activity.TikTokActivity" />
+        <activity android:name="hd.tubex.snap.vmate.itube.mixmate.activity.WhatsappActivity" />
+        <activity android:name="hd.tubex.snap.vmate.itube.mixmate.activity.InstagramActivity" />
+        <activity android:name="hd.tubex.snap.vmate.itube.mixmate.activity.FullViewActivity" />
+        <activity android:name="hd.tubex.snap.vmate.itube.mixmate.activity.LikeeActivity" />
+        <activity android:name="hd.tubex.snap.vmate.itube.mixmate.activity.JoshActivity" />
+        <activity android:name="hd.tubex.snap.vmate.itube.mixmate.activity.MitronActivity" />
+        <activity android:name="hd.tubex.snap.vmate.itube.mixmate.activity.ChingariActivity" />
+        <activity android:name="hd.tubex.snap.vmate.itube.mixmate.activity.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="hd.tubex.snap.vmate.itube.mixmate.activity.GalleryActivity" />
+        <activity android:name="hd.tubex.snap.vmate.itube.mixmate.activity.WebviewAcitivity" />
+        <activity android:name="hd.tubex.snap.vmate.itube.mixmate.activity.TwitterActivity" />
+        <activity android:name="hd.tubex.snap.vmate.itube.mixmate.activity.RoposoActivity" />
+        <activity android:name="hd.tubex.snap.vmate.itube.mixmate.activity.ShareChatActivity" />
+        <activity android:name="hd.tubex.snap.vmate.itube.mixmate.activity.SnackVideoActivity" />
+        <activity android:name="hd.tubex.snap.vmate.itube.mixmate.activity.MXTakaTakActivity" />
+        <activity android:name="hd.tubex.snap.vmate.itube.mixmate.activity.MojActivity" />
+        <activity android:name="hd.tubex.snap.vmate.itube.mixmate.activity.FBLoginActivity" />
+        <activity android:name="hd.tubex.snap.vmate.itube.mixmate.activity.VideoPlayerActivity" />
+        <activity
+            android:name="hd.tubex.snap.vmate.itube.mixmate.activity.GamesPlayActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id" />
+
+        <service
+            android:name="hd.tubex.snap.vmate.itube.mixmate.MyFirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorPrimaryDark" />
+    </application>
+
+</manifest>
