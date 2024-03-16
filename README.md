@@ -1,7 +1,5 @@
 Video Download App
 
-## Banner
-
 ![Banner](https://github.com/fahaddhabib/All-Video-Downloader-App/blob/master/assets/banner.png)
 
 Welcome to the Video Download App – your one-stop solution for downloading videos from various social media platforms with just a simple copy-paste!
