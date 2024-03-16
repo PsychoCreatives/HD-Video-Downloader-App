@@ -1,5 +1,9 @@
 Video Download App
 
+## Banner
+
+![Banner](https://github.com/fahaddhabib/All-Video-Downloader-App/blob/master/assets/banner.png)
+
 Welcome to the Video Download App – your one-stop solution for downloading videos from various social media platforms with just a simple copy-paste!
 Features
 
@@ -10,6 +14,17 @@ Features
     Fast Downloads: Our app ensures speedy downloads, allowing you to save your favorite videos quickly.
 
     MVVM Architecture: Built with the modern MVVM (Model-View-ViewModel) architecture, ensuring a scalable and maintainable codebase.
+
+## Screenshots
+
+<p float="left">
+  <img src="https://github.com/fahaddhabib/All-Video-Downloader-App/blob/master/assets/ss1.jpg" width="200" />
+  <img src="https://github.com/fahaddhabib/All-Video-Downloader-App/blob/master/assets/ss2.jpg" width="200" />
+  <img src="https://github.com/fahaddhabib/All-Video-Downloader-App/blob/master/assets/ss3.jpg" width="200" />
+  <img src="https://github.com/fahaddhabib/All-Video-Downloader-App/blob/master/assets/ss4.jpg" width="200" />
+  <img src="https://github.com/fahaddhabib/All-Video-Downloader-App/blob/master/assets/ss5.jpg" width="200" />
+</p>
+
 
 Getting Started
 Prerequisites
